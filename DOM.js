@@ -91,6 +91,6 @@ const newDiv = (parent, iter) => {
 
 // newDiv(view2, 8);
 
-for (let i = 1; i <= 12; i++){
-    newDiv(view2, i)
+for (let i = 1; i <= 12; i++) {
+  newDiv(view2, i);
 }
