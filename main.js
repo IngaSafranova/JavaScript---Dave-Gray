@@ -1,3 +1,15 @@
+// we can rename functions on import.
+
+import { games, going as go, running } from "./classes.js";
+import playMusic from "./classes.js";
+import Pizza from './classes.js'
+
+const pizza1 = new Pizza('thin','medium')
+console.log(pizza1.bake())
+console.log(games())
+console.log(playMusic())
+
+
 // User Input
 
  //1.Confirm() returns true or false.
@@ -42,3 +54,13 @@ const makeError = () => {
     }
 }
 makeError()
+
+// Higher Order Functions
+
+//1. Can take function as an argument.
+//2. Can return a function as the result.
+
+// forEach()
+// filter()
+// map()
+// reduce()

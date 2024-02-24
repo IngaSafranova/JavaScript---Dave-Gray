@@ -1,6 +1,26 @@
 // Javascript Classes. They are blueprints to create new objects.
+// At the end modules
 
-class Pizza {
+// modules
+
+export  function playMusic() {
+  return 'Playing music'
+}
+
+export const games = () => {
+  return 'palying games'
+}
+
+const running = () => {
+  return 'I am running'
+}
+const going = () => {
+  return 'I am going'
+}
+
+export { running, going }
+
+export default class Pizza {
   //to pass arguments into object need to pass them in constructor
   constructor(pizzaType, pizzaSize) {
     this.type = pizzaType;
