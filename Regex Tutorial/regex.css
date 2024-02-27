@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:aliceblue;
+}
+
+.flexCenter {
+  height: 100vh;
+  
+}
+.phoneView {
+    height: 100vh;
+    /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+} 
+
+form {
+  height: 100vh;
+ width:fit-content;
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  }
+  label {
+    padding: .5rem;
+    font-size: 1.5rem;
+  }
+  input {
+    width: 300px;
+    padding: .5rem;
+    border-radius: 100vh;
+  }
+p {
+    display: none;
+}
